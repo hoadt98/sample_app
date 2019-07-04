@@ -30,4 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  success: "Welcome to the Sample App"
+  error: "error"
+  sign-up: "Sign up"
+  form-contain: "The form contains"
+  title: "Ruby on Rails Tutorial Sample App"

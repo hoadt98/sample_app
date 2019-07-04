@@ -1,2 +1,6 @@
 vi:
-  hello: "Xin chao the gioi"
+  success: "Chào mừng đến với Ứng dụng mẫu"
+  error: "lỗi"
+  sign-up: "Đăng ký"
+  form-contain: "Biểu mẫu chứa"
+  title: "Hướng dẫn Ruby on Rails Ứng dụng mẫu"
