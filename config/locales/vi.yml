@@ -1,6 +1,17 @@
 vi:
-  success: "Chào mừng đến với Ứng dụng mẫu"
+  title: "Hướng dẫn Ruby on Rails Ứng dụng mẫu"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  log-in: "Đăng nhập"
+  about: "Về chúng tôi"
+  contact: "Liên hệ"
+  news: "Tin tức"
+  eng: "Tiếng Anh"
+  vie: "Tiếng Việt"
+
+  welcome: "Chào mừng đến với Ứng dụng mẫu"
+  sign-up-now: "Đăng ký ngay!"
+
   error: "lỗi"
   sign-up: "Đăng ký"
   form-contain: "Biểu mẫu chứa"
-  title: "Hướng dẫn Ruby on Rails Ứng dụng mẫu"
