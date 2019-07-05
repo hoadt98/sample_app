@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
-    if !@user
+    return if @user
       flash[:none] = t "none"
       redirect_to root_path
     end
