@@ -1,4 +1,5 @@
 en:
+  #Header and footer
   title: "Ruby on Rails Tutorial Sample App"
   home: "Home"
   help: "Help"
@@ -9,11 +10,42 @@ en:
   eng: "English"
   vie: "Vietnamese"
 
+  # Home
   welcome: "Welcome to the Sample App"
   sign-up-now: "Sign up now!"
+  home-page: "This is the home page for the"
+  sample-app: "sample application."
+  ror-tut: "Ruby on Rails Tutorial"
 
+  #Help
+  rails-help: "Get help on the Ruby on Rails Tutorial at the"
+  rails-book: "To get help on this sample app, see the"
+  help-section: "Rails Tutorial help section."
+  tut-book: "Ruby on Rails Tutorial book."
+
+  #Contact
+  contact-line: "Contact the Ruby on Rails Tutorial about the sample app at the"
+  contact-page: "contact page."
+
+  #About
+  the: "The"
+  by: "by"
+  isa: "is a"
+  and: "and"
+  ror: "Ruby on Rails."
+  book: "book"
+  screencast: "screencast series"
+  about-line1: "to teach web development with"
+  about-line2: "This is the sample application for the tutorial."
+
+  #Sign up
   error: "error"
   sign-up: "Sign up"
   form-contain: "The form contains"
+  name: "Name"
+  pass: "Password"
+  confirm: "Confirmation"
+  submit: "Create my account"
 
+  #Show user
   none: "Can not find user"

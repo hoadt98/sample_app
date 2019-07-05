@@ -1,5 +1,6 @@
 vi:
-  title: "Hướng dẫn Ruby on Rails Ứng dụng mẫu"
+  #Header and footer
+  title: "Hướng dẫn Ruby on Rails Sample App"
   home: "Trang chủ"
   help: "Trợ giúp"
   log-in: "Đăng nhập"
@@ -9,11 +10,42 @@ vi:
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"
 
-  welcome: "Chào mừng đến với Ứng dụng mẫu"
+  # Home
+  welcome: "Chào mừng đến với Sample App"
   sign-up-now: "Đăng ký ngay!"
+  home-page: "Đây là trang chủ của"
+  sample-app: "ứng dụng mẫu."
+  ror-tut: "Hướng dẫn Ruby on Rails"
 
+  #Help
+  rails-help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+  rails-book: "Nhận trợ giúp về ứng dụng mẫu này, xem"
+  help-section: "phần trợ giúp Hướng dẫn Rails."
+  tut-book: "sách Hướng dẫn Ruby on Rails."
+
+  #Contact
+  contact-line: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+  contact-page: "trang liên hệ."
+
+  #About
+  the: ""
+  by: "bởi"
+  isa: "là một"
+  and: "và"
+  ror: "Ruby on Rails."
+  book: "cuốn sách"
+  screencast: "loạt screencast"
+  about-line1: "dạy phát triển web với"
+  about-line2: "Đây là ứng dụng mẫu cho hướng dẫn."
+
+  #Sign up
   error: "lỗi"
   sign-up: "Đăng ký"
   form-contain: "Biểu mẫu chứa"
+  name: "Tên"
+  pass: "Mật khẩu"
+  confirm: "Xác nhận mật khẩu"
+  submit: "Tạo tài khoản"
 
+  #Show user
   none: "Không tìm thấy người dùng"

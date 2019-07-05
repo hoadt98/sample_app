@@ -1,6 +1,17 @@
 ver: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+
 name_max: 50
 email_max: 255
 pass_min: 6
 gravatar_size: 80
+
+author: Michael Hartl
+
 news_link: http://news.railstutorial.org/
+rails_link: http://rubyonrails.org/
+rails_tut_link: https://www.railstutorial.org/
+rails_help_link: https://www.railstutorial.org/help
+rails_book_link: https://www.railstutorial.org/book
+rails_contact_link: https://www.railstutorial.org/contact
+rails_screencasts_link: http://screencasts.railstutorial.org/
+author_link: http://www.michaelhartl.com/
