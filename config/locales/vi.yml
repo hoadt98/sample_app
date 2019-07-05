@@ -15,3 +15,5 @@ vi:
   error: "lỗi"
   sign-up: "Đăng ký"
   form-contain: "Biểu mẫu chứa"
+
+  none: "Không tìm thấy người dùng"
