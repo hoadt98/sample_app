@@ -9,6 +9,11 @@ vi:
   news: "Tin tức"
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"
+  user: "Người dùng"
+  account: "Tài khoản"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  log-out: "Đăng xuất"
 
   # Home
   welcome: "Chào mừng đến với Sample App"
@@ -49,3 +54,6 @@ vi:
 
   #Show user
   none: "Không tìm thấy người dùng"
+
+  #Log in
+  new-user: "Người dùng mới?"

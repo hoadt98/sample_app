@@ -9,6 +9,11 @@ en:
   news: "News"
   eng: "English"
   vie: "Vietnamese"
+  user: "User"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  log-out: "Log out"
 
   # Home
   welcome: "Welcome to the Sample App"
@@ -49,3 +54,6 @@ en:
 
   #Show user
   none: "Can not find user"
+
+  #Log in
+  new-user: "New user?"
