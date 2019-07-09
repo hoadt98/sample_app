@@ -58,3 +58,4 @@ en:
   #Log in
   new-user: "New user?"
   invalid: "Invalid email/password combination"
+  remember: "Remember me on this computer"
