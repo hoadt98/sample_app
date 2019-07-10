@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :load_user, only: %i(show edit update destroy)
 
   def index
-    @users = User.paginate(page: params[:page])
+    @users = User.page params[:page]
   end
 
   def show; end
