@@ -2,17 +2,13 @@ class UsersController < ApplicationController
   before_action :logged_in_user, only: %i(:index, :edit, :update, :destroy)
   before_action :correct_user, only: %i(:edit, :update)
   before_action :admin_user, only: %i(:destroy)
+  before_action :load_user, only: %i(show edit update destroy)
 
   def index
     @users = User.paginate(page: params[:page])
   end
 
-  def show
-    load_user
-    return if @user
-    flash[:none] = t "none"
-    redirect_to root_path
-  end
+  def show; end
 
   def new
     @user = User.new
@@ -29,12 +25,10 @@ class UsersController < ApplicationController
     end
   end
 
-  def edit
-    load_user
-  end
+  def edit; end
 
   def update
-    load_user
+
     if @user.update_attributes(user_params)
       flash[:success] = t"updated"
       redirect_to @user
@@ -44,7 +38,7 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    load_user
+
     User.find(params[:id]).destroy
     flash[:success] = t"deleted"
     redirect_to users_url
@@ -74,5 +68,8 @@ class UsersController < ApplicationController
 
     def load_user
       @user = User.find_by id: params[:id]
+      return if @user
+      flash[:none] = t "none"
+      redirect_to root_path
     end
 end
