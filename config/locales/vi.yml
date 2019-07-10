@@ -59,3 +59,16 @@ vi:
   new-user: "Người dùng mới?"
   invalid: "Email/ mật khẩu không hợp lệ"
   remember: "Ghi nhớ trên máy tính này"
+  login-not: "Vui lòng đăng nhập."
+
+  #Edit
+  edit: "Chỉnh sửa người dùng"
+  update: "Cập nhật hồ sơ"
+  save: "Lưu thay đổi"
+  updated: "Đã cập nhật hồ sơ"
+
+  #All users
+  all-users: "Tất cả người dùng"
+  delete: "Xóa"
+  deleted: "Đã xóa người dùng"
+  sure: "Bạn có chắc chắn?"
