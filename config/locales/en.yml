@@ -89,5 +89,8 @@ en:
   active-line: "Welcome to the Sample App! Click on the link below to activate your account:"
   acc-active: "Account activated!"
   inv-active: "Invalid activation link"
-  acc-not-active: "Account not activated. "
-  mail-active: "Check your email for the activation link."
+  acc-not-active: "Account not activated. Check your email for the activation link."
+  acc-act: "Account activation"
+
+  #Mail
+  greeting: "Hi"

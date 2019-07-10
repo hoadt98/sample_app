@@ -89,5 +89,7 @@ vi:
   active-line: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
   acc-active: "Tài khoản được kích hoạt!"
   inv-active: "Liên kết kích hoạt không hợp lệ"
-  acc-not-active: "Tài khoản chưa được kíc h hoạt. "
-  mail-active: "Kiểm tra email của bạn để lấy liên kết kích hoạt."
+  acc-not-active: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để lấy liên kết kích hoạt."
+
+  #Mail
+  greeting: "Xin chào"
