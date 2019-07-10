@@ -18,13 +18,13 @@ class User < ApplicationRecord
     end
 
     def new_token
-    SecureRandom.urlsafe_base64
+      SecureRandom.urlsafe_base64
     end
   end
 
   def remember
     self.remember_token = User.new_token
-    update :remember_digest: User.digest(remember_token)
+    update remember_digest: User.digest(remember_token)
   end
 
   def authenticated?(remember_token)
@@ -33,6 +33,6 @@ class User < ApplicationRecord
   end
 
   def forget
-    update :remember_digest: nil
+    update remember_digest: nil
   end
 end
