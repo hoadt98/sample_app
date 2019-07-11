@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(:index, :edit, :update, :destroy)
-  before_action :correct_user, only: %i(:edit, :update)
-  before_action :admin_user, only: %i(:destroy)
+  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :correct_user, only: %i(edit update)
+  before_action :admin_user, only: %i(destroy)
   before_action :load_user, only: %i(show edit update destroy)
 
   def index
@@ -52,10 +52,10 @@ class UsersController < ApplicationController
     end
 
     def logged_in_user
-      return if !logged_in?
-      store_location
-      flash[:danger] = t"login-not"
-      redirect_to login_url
+      unless logged_in?
+        flash[:danger] = t"login-not"
+        redirect_to login_url
+      end
     end
 
     def correct_user
