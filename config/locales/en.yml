@@ -1,4 +1,12 @@
 en:
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
+
   #Header and footer
   title: "Ruby on Rails Tutorial Sample App"
   home: "Home"
@@ -68,6 +76,9 @@ en:
   updated: "Profile updated"
   change: "Change"
 
+  #Create
+  create: "Please check your email to activate your account."
+
   #All users
   all-users: "All users"
   delete: "Delete"
@@ -76,4 +87,7 @@ en:
 
   #Active
   active-line: "Welcome to the Sample App! Click on the link below to activate your account:"
-
+  acc-active: "Account activated!"
+  inv-active: "Invalid activation link"
+  acc-not-active: "Account not activated. "
+  mail-active: "Check your email for the activation link."
