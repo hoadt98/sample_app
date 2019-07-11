@@ -28,8 +28,7 @@ class UsersController < ApplicationController
   def edit; end
 
   def update
-
-    if @user.update_attributes(user_params)
+    if @user.update user_params
       flash[:success] = t"updated"
       redirect_to @user
     else
@@ -38,10 +37,12 @@ class UsersController < ApplicationController
   end
 
   def destroy
-
-    User.find(params[:id]).destroy
-    flash[:success] = t"deleted"
-    redirect_to users_url
+    if @user.destroy
+      flash[:success] = t"deleted"
+      redirect_to users_url
+    else
+      render :index
+    end
   end
 
   private
@@ -69,7 +70,7 @@ class UsersController < ApplicationController
     def load_user
       @user = User.find_by id: params[:id]
       return if @user
-      flash[:none] = t "none"
+      flash[:none] = t"none"
       redirect_to root_path
     end
 end
