@@ -1,8 +1,6 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
 
-  paginates_per 10
-
   before_save {email.downcase!}
   VALID_EMAIL_REGEX = Settings.ver
 
