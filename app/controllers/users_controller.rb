@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :load_user, only: %i(show edit update destroy)
 
   def index
-    @users = User.order(:user).page params[:page]
+    @users = User.page params[:page]
   end
 
   def show; end
@@ -52,10 +52,10 @@ class UsersController < ApplicationController
     end
 
     def logged_in_user
-      return if !logged_in?
-      store_location
-      flash[:danger] = t"login-not"
-      redirect_to login_url
+      return if logged_in?
+        store_location
+        flash[:danger] = t"login-not"
+        redirect_to login_url
     end
 
     def correct_user
