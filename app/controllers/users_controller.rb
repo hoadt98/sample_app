@@ -6,6 +6,7 @@ class UsersController < ApplicationController
 
   def index
     @users = User.page params[:page]
+    User.paginates_per 10
   end
 
   def show; end
