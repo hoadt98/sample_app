@@ -1,4 +1,12 @@
 en:
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
+
   #Header and footer
   title: "Ruby on Rails Tutorial Sample App"
   home: "Home"
