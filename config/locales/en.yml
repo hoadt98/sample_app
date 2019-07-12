@@ -91,3 +91,6 @@ en:
   inv-active: "Invalid activation link"
   acc-not-active: "Account not activated. "
   mail-active: "Check your email for the activation link."
+
+  #Mail
+  greeting: "Hi"

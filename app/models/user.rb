@@ -2,8 +2,6 @@ class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token
   before_save   :downcase_email
   before_create :create_activation_digest
-
-
   before_save {email.downcase!}
   VALID_EMAIL_REGEX = Settings.ver
 
@@ -41,8 +39,7 @@ class User < ApplicationRecord
   end
 
   def activate
-    update activated: true
-    update activated_at: Time.zone.now
+    update activated: true, activated_at: Time.zone.now
   end
 
   def send_activation_email
@@ -52,7 +49,7 @@ class User < ApplicationRecord
   private
 
     def downcase_email
-      self.email = email.downcase
+      email.downcase!
     end
 
     def create_activation_digest

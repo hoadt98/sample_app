@@ -91,3 +91,6 @@ vi:
   inv-active: "Liên kết kích hoạt không hợp lệ"
   acc-not-active: "Tài khoản chưa được kích hoạt. "
   mail-active: "Kiểm tra email của bạn để lấy liên kết kích hoạt."
+
+  #Mail
+  greeting: "Xin chào"
