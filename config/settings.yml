@@ -1,4 +1,5 @@
 ver: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+user_activated: "1"
 
 name_max: 50
 email_max: 255
