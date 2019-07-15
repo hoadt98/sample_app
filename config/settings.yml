@@ -7,6 +7,7 @@ pass_min: 6
 gravatar_size: 80
 gravatar_user_size: 50
 paginate_per: 10
+time_pass_reset: 2
 
 author: Michael Hartl
 
