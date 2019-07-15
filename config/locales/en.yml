@@ -76,8 +76,21 @@ en:
   updated: "Profile updated"
   change: "Change"
 
+  #Create
+  create: "Please check your email to activate your account."
+
   #All users
   all-users: "All users"
   delete: "Delete"
   deleted: "User deleted"
   sure: "You sure?"
+
+  #Active
+  active-line: "Welcome to the Sample App! Click on the link below to activate your account:"
+  acc-active: "Account activated!"
+  inv-active: "Invalid activation link"
+  acc-not-active: "Account not activated. Check your email for the activation link."
+  acc-act: "Account activation"
+
+  #Mail
+  greeting: "Hi"
