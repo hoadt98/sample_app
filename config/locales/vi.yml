@@ -91,11 +91,20 @@ vi:
   inv-active: "Liên kết kích hoạt không hợp lệ"
   acc-not-active: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để lấy liên kết kích hoạt."
   acc-act: "Kích hoạt tài khoản"
-
-  #Mail
   greeting: "Xin chào"
+  act: "Kích hoạt"
 
   #Forgot password
   forgot-pass: "Quên mật khẩu"
   email: "Email được gửi với hướng dẫn đặt lại mật khẩu"
   email-not-found: "Không tìm thấy địa chỉ email"
+  pass-reset: "Đặt lại mật khẩu"
+  reset-pass: "Đặt lại mật khẩu"
+  reset-line-1: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+  reset-line-2: "Liên kết này sẽ hết hạn trong hai giờ."
+  reset-line-3: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+  not-empty: "can't be empty"
+  pass-reseted: "Password has been reset."
+  pass-exp: "Password reset has expired."
+  pass-submit: "Submit"
+  pass-update: "Update password"

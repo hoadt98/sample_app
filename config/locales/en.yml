@@ -91,11 +91,20 @@ en:
   inv-active: "Invalid activation link"
   acc-not-active: "Account not activated. Check your email for the activation link."
   acc-act: "Account activation"
-
-  #Mail
   greeting: "Hi"
+  act: "Activate"
 
-  #Forgot password
+  #Forgot and reset password
   forgot-pass: "Forgot password"
   email: "Email sent with password reset instructions"
   email-not-found: "Email address not found"
+  pass-reset: "Password reset"
+  reset-pass: "Reset password"
+  reset-line-1: "To reset your password click the link below:"
+  reset-line-2: "This link will expire in two hours."
+  reset-line-3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  not-empty: "không thể để trống"
+  pass-reseted: "Mật khẩu đã được đặt lại."
+  pass-exp: "Đặt lại mật khẩu đã hết hạn."
+  pass-submit: "Gửi đi"
+  pass-update: "Cập nhật mật khẩu"
