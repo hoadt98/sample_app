@@ -115,3 +115,4 @@ en:
   view-pro5: "view my profile"
   post-feed: "Micropost Feed"
   post: "Micropost"
+  max-file: "Maximum file size is 5MB. Please choose a smaller file."
