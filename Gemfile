@@ -8,6 +8,8 @@ gem "jquery-rails"
 gem "rails-i18n"
 gem "bcrypt", "3.1.12"
 gem "ffaker"
+gem "carrierwave", "1.2.2"
+gem "mini_magick", "4.7.0"
 gem "kaminari"
 gem "bootstrap-sass", "3.4.1"
 gem "sqlite3"
@@ -35,6 +37,11 @@ group :test do
   gem "capybara", ">= 2.15"
   gem "selenium-webdriver"
   gem "chromedriver-helper"
+end
+
+group :production do
+  gem "pg", "0.20.0"
+  gem "fog", "1.42.0"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
