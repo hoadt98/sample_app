@@ -9,13 +9,13 @@ class SessionsController < ApplicationController
         params[:session][:remember_me] == Settings.user_activated ? remember(user) : forget(user)
         redirect_back_or user
       else
-        message = t"acc-not-active"
+        message = t "acc-not-active"
         flash[:warning] = message
         redirect_to root_url
       end
 
     else
-      flash.now[:danger] = t"invalid"
+      flash.now[:danger] = t "invalid"
       render :new
     end
   end

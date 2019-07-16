@@ -21,7 +21,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       @user.send_activation_email
-      flash[:info] = t"create"
+      flash[:info] = t "create"
       redirect_to root_url
     else
       render :new
@@ -32,7 +32,7 @@ class UsersController < ApplicationController
 
   def update
     if @user.update user_params
-      flash[:success] = t"updated"
+      flash[:success] = t "updated"
       redirect_to @user
     else
       render :edit
@@ -66,7 +66,7 @@ class UsersController < ApplicationController
     def load_user
       @user = User.find_by id: params[:id]
       return if @user
-      flash[:none] = t"none"
+      flash[:none] = t "none"
       redirect_to root_path
     end
 end
