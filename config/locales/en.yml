@@ -113,3 +113,5 @@ en:
   post-create: "Micropost created!"
   post-del: "Micropost deleted"
   view-pro5: "view my profile"
+  post-feed: "Micropost Feed"
+  post: "Micropost"

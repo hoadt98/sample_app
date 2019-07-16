@@ -110,6 +110,8 @@ vi:
   pass-update: "Cập nhật mật khẩu"
 
   #Micropost
-  post-create: "Đã tạo micropost !"
-  post-del: "Đã xóa micropost"
+  post-create: "Đã tạo bài đăng!"
+  post-del: "Đã xóa bài đăng"
   view-pro5: "Xem hồ sơ"
+  post-feed: "Vùng bài đăng"
+  post: "Bài đăng"
