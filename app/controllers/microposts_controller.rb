@@ -14,15 +14,17 @@ class MicropostsController < ApplicationController
   end
 
   def destroy
-    @micropost.destroy
-    flash[:success] = t "post-del"
-    redirect_to request.referrer || root_url
+    if @micropost.destroy
+      flash[:success] = t "post-del"
+      redirect_to request.referrer || root_url
+    else
+      render "static_pages/home"
   end
 
   private
 
     def micropost_params
-      params.require(:micropost).permit(:content, :picture)
+      params.require(:micropost).permit :content, :picture
     end
 
     def correct_user

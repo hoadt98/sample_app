@@ -116,3 +116,5 @@ vi:
   post-feed: "Vùng bài đăng"
   post: "Bài đăng"
   max-file: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn."
+  post-cont: "Soạn bài đăng mới ..."
+  post-post: "Đăng"
