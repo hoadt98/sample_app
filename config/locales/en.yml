@@ -116,3 +116,10 @@ en:
   post-feed: "Micropost Feed"
   post: "Micropost"
   max-file: "Maximum file size is 5MB. Please choose a smaller file."
+
+  #Follow
+  following: "following"
+  followers: "followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  microposts: "Microposts:"

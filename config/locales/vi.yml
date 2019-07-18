@@ -116,3 +116,10 @@ vi:
   post-feed: "Vùng bài đăng"
   post: "Bài đăng"
   max-file: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn."
+
+  #Follow
+  following: "đang theo dõi"
+  followers: "người theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
+  microposts: "Số bài đăng:"

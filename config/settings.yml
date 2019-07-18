@@ -6,6 +6,7 @@ email_max: 255
 pass_min: 6
 gravatar_size: 80
 gravatar_user_size: 50
+gravatar_follow_size: 30
 paginate_per: 10
 time_pass_reset: 2
 content_max: 140
