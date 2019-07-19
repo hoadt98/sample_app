@@ -50,16 +50,21 @@ class UsersController < ApplicationController
 
   def following
     @title = t "following"
-    @user  = User.find(params[:id])
+    @user  = User.find_by id: params[:id]
     @users = @user.following.paginate(page: params[:page])
     render :show_follow
   end
 
   def followers
     @title = t "followers"
-    @user  = User.find(params[:id])
+    @user  = User.find_by params[:id]
     @users = @user.followers.paginate(page: params[:page])
     render :show_follow
+  end
+
+  def follow
+    @folform = current_user.active_relationships.build
+    @unfolform = current_user.active_relationships.find_by(followed_id: @user.id)
   end
 
   private
