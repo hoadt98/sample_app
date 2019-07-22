@@ -62,6 +62,10 @@ class UsersController < ApplicationController
     render :show_follow
   end
 
+  def follow
+    @form = current_user.active_relationships.build
+  end
+
   private
 
     def user_params
