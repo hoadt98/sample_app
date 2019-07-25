@@ -68,8 +68,8 @@ class User < ApplicationRecord
     reset_sent_at < Settings.time_pass_reset.hours.ago
   end
 
-  scope :feed, -> { Micropost.joins(:following_ids).where("user_id IN (#{following_ids})
-                     OR user_id = :user_id", user_id: id) }
+  scope :feed, -> { Micropost.joins(:following_ids).where("user_id IN
+                  (#{following_ids}) OR user_id = :user_id", user_id: id) }
 
   def follow other_user
     following << other_user
