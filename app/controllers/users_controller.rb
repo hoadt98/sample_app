@@ -63,7 +63,8 @@ class UsersController < ApplicationController
   end
 
   def follow
-    @form = current_user.active_relationships.build
+    @folform = current_user.active_relationships.build
+    @unfolform = current_user.active_relationships.find_by(followed_id: @user.id)
   end
 
   private

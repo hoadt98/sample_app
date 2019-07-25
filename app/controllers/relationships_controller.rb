@@ -11,6 +11,7 @@ class RelationshipsController < ApplicationController
       end
     else
       redirect_to user
+    end
   end
 
   def destroy
